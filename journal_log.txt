@@ -1,0 +1,28 @@
+Aug 13 13:44:17 controller rsyslogd[536]: imuxsock[pid: 1325, name: /bin/bash] from <controller:>: begin to drop messages due to rate-limiting
+Aug 13 13:44:17 controller cmserver[1325]: [cmprocessor( 66)] get_property called for delivery
+Aug 13 13:44:17 controller cmserver[1325]: [cmbackendhandler( 27)] get_property called for delivery
+Aug 13 13:44:17 controller cmserver[1325]: [cmwsgihandler(107)] Replying with rpc.rep_status=200 OK
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:COMMANDEXECUTE:executeCommand:: m_strCommandOutput = FHGW_20.015_7ddff22
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  WARNING NE3S:COMMANDEXECUTE:executeCommand - exit
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:CM:SWM:CSWManWrapper:In getClusterDelivery retCode= 0;retValcmd= FHGW_20.015_7ddff22
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:CM:SWM:CSWManWrapper:getClusterDelivery: Active Delivery: FHGW_20.015_7ddff22
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:CM:SWM:CSWManWrapper:getClusterDelivery - exit
+Aug 13 13:44:18 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:CM:SWM:SWActivate:activateOperation - exit
+Aug 13 13:48:11 controller haagent[658]: Aug 13 13:48:11:DEBUG:actions(246):Previous and new states of MO are DOWN and DOWN
+Aug 13 13:48:11 controller haagent[658]: Aug 13 13:48:11:DEBUG:actions(289):Set operation received for lock/unlock operation
+Aug 13 13:48:11 controller haagent[658]: Aug 13 13:48:11:DEBUG:haagent(241):Output message with sendall is Set operation received for lock/unlock operation
+Aug 13 13:48:11 controller /haproxy[702]: systemd- Data received from server b'Set operation received for lock/unlock operation'
+Aug 13 13:48:11 controller /haproxy[702]: Active state is active and sub state is running
+Aug 13 13:48:11 controller /haproxy[702]: [Unit] eswfwk.service is RUNNING.
+Aug 13 13:51:24 controller ne3s-agent[15483]: cmserver is ready now
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  ERROR Initializing the singleton
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  ERROR SocketPool::waitForEvents()
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3S:FM:CFaultNotification:getLastNotificationId:Fetched last notification id 88 successfully
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  ERROR NE3S:FM:is_new_alarm_event_present::Polling period 88 - 88
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  DEBUG NE3SNotificationTime:storePrevNotificationTime - entry
+Aug 13 13:48:13 controller NE3SAgent[1606]: NE3SAgent  WARNING NE3SNotificationTime:storePrevNotificationTime - exit
+Aug 13 13:48:14 controller cmserver[1325]: [cmwsgihandler( 67)] ERROR Handling action, action=handle_property
+Aug 13 13:48:14 controller cmserver[1325]: [cmwsgihandler( 89)] Calling before rpc
+Aug 13 13:51:24 controller ne3s-agent[15483]: Wait till cmserver is ready to serve
+Aug 13 13:51:24 controller ne3s-agent[15457]: Adding user _nokfhgwne3sws to group Ne3sAdmin
+
