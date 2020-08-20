@@ -1,4 +1,4 @@
-# Simple python script which will take input as a txt file(here journal_log.txt which contains logs from multiple subsystems) and subsystem name and takes all logs for your subsytem from journal_log.txt and store in other file <subsystem_name>-<log>.txt and all WARNING and ERROR into another file <subsystem_name>-<error>.txt
+# Simple python script which will take input as a txt file(here journal_log.txt which contains logs from multiple subsystems) and subsystem name and takes all logs for your subsytem from journal_log.txt and store in other file <subsystem_name>-log.txt and all WARNING and ERROR into another file <subsystem_name>-error.txt
 
 
 Script description : It takes all the logs for any specific subsystem from journal log and generate two files for that subsystem
